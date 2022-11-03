@@ -1,0 +1,1 @@
+AOS.init({offset:400,duration:1e3}),AOS.init({disable:function(){return window.innerWidth<800}});

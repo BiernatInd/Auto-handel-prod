@@ -1,0 +1,1 @@
+let menuToggle=document.querySelector(".menuToggle"),nav=document.querySelector(".nav-list");function myFunction(){nav.classList.remove("active"),menuToggle.classList.toggle("active")}menuToggle.onclick=function(){menuToggle.classList.toggle("active"),nav.classList.toggle("active")};
